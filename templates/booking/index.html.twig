@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Booking index{% endblock %}
+
+{% block body %}
+    <h1>Мои бронирования</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Дата заезда</th>
+                <th>Дата выезда</th>
+                <th>Количество гостей</th>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>номер телефона</th>
+                <th>Итоговая цена</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for booking in bookings %}
+            <tr>
+
+                <td>{{ booking.dateIn ? booking.dateIn|date('Y-m-d') : '' }}</td>
+                <td>{{ booking.dateOut ? booking.dateOut|date('Y-m-d') : '' }}</td>
+                <td>{{ booking.guestsNum }}</td>
+                <td>{{ booking.name }}</td>
+                <td>{{ booking.surname }}</td>
+                <td>{{ booking.phone }}</td>
+                <td>{{ booking.finalPrice }}</td>
+                <td>
+                    <a href="{{ path('booking_show', {'id': booking.id}) }}">Просмотреть</a>
+                    <a href="{{ path('booking_edit', {'id': booking.id}) }}">Изменить</a>
+                  {#  <a href="{{ path('guests') }}">🤍Добавить гостей</a>#}
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="8">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

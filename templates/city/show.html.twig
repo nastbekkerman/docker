@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}City{% endblock %}
+
+{% block body %}
+    <h1>{{ city.name }}</h1>
+
+
+    <table class="table">
+        <thead>
+        <tr>
+
+            <th>Название</th>
+            <th>Адрес</th>
+            <th>Звезды</th>
+
+        </tr>
+        </thead>
+    <tbody>
+    {% for otel in otels %}
+        <tr>
+
+            <td>{{ otel.name }}</td>
+            <td>{{ otel.address }}</td>
+            <td>{{ otel.stars }}</td>
+            <td>
+                <a href="{{ path('otel_show', {'id': otel.id}) }}">Выбрать комнату</a>
+            </td>
+        </tr>
+    {% else %}
+        <tr>
+            <td colspan="3">no records found</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+    </table>
+
+    <a href="{{ path('city_index') }}">вернуться к списку</a>
+
+{% endblock %}

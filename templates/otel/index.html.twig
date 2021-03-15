@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Otel index{% endblock %}
+
+{% block body %}
+    {% if is_granted('IS_AUTHENTICATED_FULLY')%}
+    <h1>Список отелей</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Название</th>
+                <th>Звезды</th>
+                <th>Город</th>
+                <th>Адрес</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for otel in otels %}
+            <tr>
+
+                <td>{{ otel.name }}</td>
+                <td>{{ otel.stars }}</td>
+                <td>{{ otel.city }}</td>
+                <td>{{ otel.address}}</td>
+                <td>
+                    <a href="{{ path('otel_show', {'id': otel.id}) }}">просмотр</a>
+                   {# <a href="{{ path('otel_edit', {'id': otel.id}) }}">изменить</a>#}
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+        <h2>Пожалуста зарегестрируйтесь или войдите в систему.</h2>
+    {% endif %}
+    {#<a href="{{ path('otel_new') }}">Create new</a>#}
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Otel{% endblock %}
+
+{% block body %}
+    <h1>Edit Otel</h1>
+
+    {{ include('otel/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('otel_index') }}">back to list</a>
+
+    {{ include('otel/_delete_form.html.twig') }}
+{% endblock %}

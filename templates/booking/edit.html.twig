@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Booking{% endblock %}
+
+{% block body %}
+    <h1>Изменить бронирование</h1>
+
+    {{ include('booking/_form.html.twig', {'button_label': 'Update'}) }}
+    {{ include('booking/_delete_form.html.twig') }}
+    <a href="{{ path('booking_index') }}">вернутся к бронированиям</a>
+
+
+{% endblock %}

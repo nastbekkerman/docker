@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header {
+    color: #155663;
+    background: #3eb6a8;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 10px;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+header .header_logo {
+    padding:20px 15px;
+    color: #155663;
+    font-weight: bold;
+    margin-right: auto;
+}
+header .header_logo a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+header ul li a{
+    display:block;
+    padding:20px 15px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background: #2a9392;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+header button.green {
+    color: #ffffff;
+    padding: 9px 25px;
+    background-color: #546C8C;
+    border: 1px solid #546C8C;
+    border-radius: 10px;
+    margin-left:20px;
+    cursor: pointer;
+}
+header button.green a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.center_block_main {
+    display: flex;
+  margin: auto 0;
+    height: 100%;
+
+}
+.center_block_main form{
+    margin: 10px 20px 20px 10px;
+
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #E8E8E8;
+}
+
+aside ul {
+    margin: 30px 10px;
+}
+
+aside ul li {
+    margin: 5px 10px;
+}
+
+aside ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: #232423;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    background: #5db7a8;
+    text-decoration: none;
+    color: #F5F5F5;
+
+}
+main {
+    padding: 40px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+main h2 {
+    margin: 40px 40px 20px 40px;
+}
+main h3 {
+    margin: 40px 40px 20px 40px;
+}
+main h4 {
+    margin: 0px 40px 20px 40px;
+}
+main h6 {
+    color: red;
+}
+main ul li a:hover{
+    background: #cdafed;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    background: #5d537e;
+}

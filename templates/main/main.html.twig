@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Room index{% endblock %}
+
+{% block body %}
+    {% if is_granted('IS_AUTHENTICATED_FULLY')%}
+      <tr>  <h2>Добро пожаловать! </h2>
+                <h4>Здесь вы можете забронировать отель или просмотреть информацию о нужном вам отеле!</h4>
+      </tr>
+    {% else %}
+<h2>Войдите или зарегестрируйтесь, чтобы забронировать отель!</h2>
+    {% endif %}
+{% endblock %}

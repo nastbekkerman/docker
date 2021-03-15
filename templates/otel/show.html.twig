@@ -1,0 +1,47 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Otel{% endblock %}
+
+{% block body %}
+    {% if is_granted('IS_AUTHENTICATED_FULLY')%}
+    <h1>{{ otel.name }}</h1>
+    <h5>Адрес: {{ otel.address }}</h5>
+    <h5>Количество звезд: {{ otel.stars }}</h5>
+
+    <table class="table">
+        <thead>
+        <tr>
+
+            <th>Количесвто гостей</th>
+            <th>Вид на море</th>
+            <th>Тип</th>
+            <th>Цена</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        {% for room in rooms %}
+            <tr>
+                <td>{{ room.numberOfGuests }}</td>
+                <td>{{ room.seaview ? 'Да' : 'Нет' }}</td>
+                <td>{{ room.typer }}</td>
+                <td>{{ room.price }}</td>
+                <td>
+                    <a href="{{ path('booking_new', {'id': room.id}) }}">Забронировать</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="6">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+   {# <a href="{{ path('room_new', {'id': otel.id}) }}">Добавить комнату</a>#}
+
+    <a href="{{ path('otel_index') }}">вернутся к списку</a>
+    {% else %}
+        <h2>Пожалуста зарегестрируйтесь или войдите в систему.</h2>
+    {% endif %}
+{% endblock %}

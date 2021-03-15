@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Otel{% endblock %}
+
+{% block body %}
+    {% if is_granted('IS_AUTHENTICATED_FULLY')%}
+    <h1>Create new Otel</h1>
+
+
+    {{ include('otel/_form.html.twig') }}
+
+    <a href="{{ path('otel_index') }}">back to list</a>
+{% else %}
+    <h2>Пожалуста зарегестрируйтесь или войдите в систему.</h2>
+{% endif %}
+{% endblock %}

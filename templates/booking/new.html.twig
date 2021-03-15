@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Booking{% endblock %}
+
+{% block body %}
+    <h1>Бронирование комнаты</h1>
+
+    {#{% for message in app.flashes('notice') %}
+        <div class="flash-notice">
+           <h6>{{ message }}</h6>
+        </div>
+    {% endfor %}#}
+
+    {% for label, messages in app.flashes(['notice', 'mistake']) %}
+    {% for message in messages %}
+        <div class="flash-notice">
+            <h6>{{ message }}</h6>
+        </div>
+    {% endfor %}
+    {% endfor %}
+
+    {{ include('booking/_form.html.twig') }}
+
+
+    <a href="{{ path('booking_index') }}">вернуться к выбору комнаты</a>
+{% endblock %}

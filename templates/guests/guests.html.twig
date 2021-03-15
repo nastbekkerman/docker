@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Guests{% endblock %}
+
+{% block body %}
+    {% if is_granted('IS_AUTHENTICATED_FULLY')%}
+        <tr>  <h2>Добавить гостя</h2>
+
+        </tr>
+    {% else %}
+        <h2>Войдите или зарегестрируйтесь, чтобы забронировать отель!</h2>
+    {% endif %}
+{% endblock %}
