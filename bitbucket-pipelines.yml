@@ -8,4 +8,5 @@ pipelines:
         script:
           - /usr/bin/composer install
           - vendor/bin/phpcs ./src
+          - phpcs ./src
 
