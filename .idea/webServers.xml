@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="b707a05a-82b0-4c0f-b3ad-3959bf5771c6" name="hotel" url="http://207.154.243.236">
-        <fileTransfer rootFolder="/var/www/hotel_project" accessType="SFTP" host="207.154.243.236" port="22" sshConfigId="763d646a-db80-444e-9a7b-6ac4789f5d1c" sshConfig="nastbekkerman@207.154.243.236:22 password">
+      <webServer id="b707a05a-82b0-4c0f-b3ad-3959bf5771c6" name="hotel" url="http://165.232.130.229">
+        <fileTransfer rootFolder="/var/www/hotel" accessType="SFTP" host="143.110.225.69" port="22" sshConfigId="763d646a-db80-444e-9a7b-6ac4789f5d1c" sshConfig="nastbekkerman@143.110.225.69:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

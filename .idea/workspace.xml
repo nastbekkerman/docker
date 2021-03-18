@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31816e8e-807a-4fe9-8b77-e3cbd7f21a9a" name="Default Changelist" comment="" />
+    <list default="true" id="31816e8e-807a-4fe9-8b77-e3cbd7f21a9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -124,6 +131,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iruQqk9F8BuHnBgDp6iFD0i2Xx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -141,6 +149,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\79964\PhpstormProjects\hotel" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -162,6 +175,8 @@
       <workItem from="1611314610302" duration="481000" />
       <workItem from="1614741919082" duration="260000" />
       <workItem from="1615286553557" duration="22194000" />
+      <workItem from="1615783184894" duration="970000" />
+      <workItem from="1616043180376" duration="6920000" />
     </task>
     <servers />
   </component>
@@ -169,14 +184,18 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="182" key="#Deployment" timestamp="1611303557808">
+    <state x="1032" y="182" key="#Deployment" timestamp="1616054516811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="182" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1611303557808" />
-    <state x="1222" y="275" key="FileChooserDialogImpl" timestamp="1614742178504">
+    <state x="1032" y="182" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1616054516811" />
+    <state x="1016" y="169" key="#SSH_Configurations" timestamp="1616054511107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1222" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614742178504" />
+    <state x="1016" y="169" key="#SSH_Configurations/0.0.1920.1040@0.0.1920.1040" timestamp="1616054511107" />
+    <state x="1222" y="275" key="FileChooserDialogImpl" timestamp="1615783218024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1222" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615783218024" />
     <state x="1096" y="244" key="run.anything.popup" timestamp="1615699686081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
