@@ -1,0 +1,11 @@
+image: atlassian/default-image:2
+
+pipelines:
+  default:
+    - step:
+        name: 'Build and Test'
+        image: composer/composer:1.10.20
+        script:
+          - /usr/bin/composer install
+          - vendor/bin/phpcs ./src
+

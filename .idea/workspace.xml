@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="31816e8e-807a-4fe9-8b77-e3cbd7f21a9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -174,12 +192,23 @@
       <workItem from="1614741919082" duration="260000" />
       <workItem from="1615286553557" duration="22194000" />
       <workItem from="1615783184894" duration="970000" />
-      <workItem from="1616043180376" duration="8275000" />
+      <workItem from="1616043180376" duration="8918000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="182" key="#Deployment" timestamp="1616054516811">
@@ -190,6 +219,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1016" y="169" key="#SSH_Configurations/0.0.1920.1040@0.0.1920.1040" timestamp="1616054511107" />
+    <state x="681" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616059413244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1616059413244" />
     <state x="1222" y="275" key="FileChooserDialogImpl" timestamp="1615783218024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
