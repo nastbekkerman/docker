@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="31816e8e-807a-4fe9-8b77-e3cbd7f21a9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/bitbucket-pipelines.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bitbucket-pipelines.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +193,7 @@
       <workItem from="1614741919082" duration="260000" />
       <workItem from="1615286553557" duration="22194000" />
       <workItem from="1615783184894" duration="970000" />
-      <workItem from="1616043180376" duration="9239000" />
+      <workItem from="1616043180376" duration="9577000" />
     </task>
     <servers />
   </component>
