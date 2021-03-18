@@ -7,5 +7,5 @@ pipelines:
         image: composer/composer:1.10.20
         script:
           - /usr/bin/composer install
-          - ./vendor/bin/phpcs -h ./src
+          - phpcs ./src
 
