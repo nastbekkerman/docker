@@ -7,6 +7,7 @@ pipelines:
         image: composer/composer:1.10.20
         script:
           - /usr/bin/composer install
+          - composer global require "squizlabs/php_codesniffer=*"
           - vendor/bin/phpcs src
 
   branches:
