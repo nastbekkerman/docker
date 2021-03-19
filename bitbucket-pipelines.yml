@@ -9,6 +9,7 @@ pipelines:
           - /usr/bin/composer install
 #          - vendor/bin/phpcs ./src
 #          - phpcs ./src
+          - vendor/bin/phpcs ./src
 
   branches:
     master:
