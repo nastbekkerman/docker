@@ -7,6 +7,14 @@ pipelines:
         image: composer/composer:1.10.20
         script:
           - /usr/bin/composer install
-          - vendor/bin/phpcs ./src
-          - phpcs ./src
+#          - vendor/bin/phpcs ./src
+#          - phpcs ./src
 
+    branches:
+      master:
+        - step:
+            name: 'To prod'
+            image: composer/composer:1.10.20
+            script:
+              - /usr/bin/composer install
+              - ssh nastbekkerman@165.232.130.229 ./to_prod.sh

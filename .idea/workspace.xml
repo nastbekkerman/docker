@@ -22,7 +22,7 @@
     <list default="true" id="31816e8e-807a-4fe9-8b77-e3cbd7f21a9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitbucket-pipelines.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bitbucket-pipelines.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/main.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/main.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +194,8 @@
       <workItem from="1614741919082" duration="260000" />
       <workItem from="1615286553557" duration="22194000" />
       <workItem from="1615783184894" duration="970000" />
-      <workItem from="1616043180376" duration="10913000" />
+      <workItem from="1616043180376" duration="11815000" />
+      <workItem from="1616128560610" duration="693000" />
     </task>
     <servers />
   </component>
@@ -211,12 +212,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="182" key="#Deployment" timestamp="1616054516811">
+    <state x="1032" y="182" key="#Deployment" timestamp="1616128911829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="182" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1616054516811" />
+    <state x="1032" y="182" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1616128911829" />
     <state x="1017" y="178" key="#PHP_CodeSniffer" timestamp="1616069541660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
